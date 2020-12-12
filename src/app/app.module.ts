@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
+import { AlphaComponent } from './alpha/alpha.component';
+import { BravoComponent } from './bravo/bravo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent
+    ServerComponent,
+    ServersComponent,
+    AlphaComponent,
+    BravoComponent
   ],
     
   imports: [
